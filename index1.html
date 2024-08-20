@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      background-image: url('https://wallpaperaccess.com/full/201322.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+  </style>
+  <!---------------new slider header----------->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- custom css file link -->
+  <link rel="stylesheet" href="style.css">
+  <!----------------------------end------------>
+  <!-- box icons link -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- custom css file link -->
+  <link href="style1.css" rel="stylesheet">
+
+  <!-- swiper css file link-->
+  <link href="swiper-bundle.min.css" rel="stylesheet">
+  <!-----------------------NEW NAVBAR        -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+
+  
+</head>
+
+<body style="background-color:black;">
+
+  <!-------LOGO------------------>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="https://res.cloudinary.com/teepublic/image/private/s--IEMlTP1N--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_000000,e_outline:48/co_000000,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1611841730/production/designs/18957297_0.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+      <h1 class="header">ANIMePLANET</h1>
+    </a>
+  </nav>
+  <!-----------NAVIGATION BAR----------------->
+  <div id="wrapper">
+		<div class="owl-carousel" id="slider-area">
+			<div style="background-image: url(1.jpg)"></div>
+			<div style="background-image: url(2.jpg)"></div>
+			<div style="background-image: url(3.jpg)"></div>
+		</div>
+		<div class="nav-area">
+			<div class="nav">
+				<a href="#">Home</a> 
+				<a href="#">ANIME</a> 
+				<a href="#">MANGA</a> 
+				<a href="#">NEWS</a> 
+				<a href="#">Contact/SUPPORT</a>
+			</div>
+		</div>
+		<div class="slider-text">
+			<h2>ANIME<span>Planet</span></h2>
+			<p>heaven for anime and manga lovers</p><a href="#">learn More</a> <a class="nav-link active" aria-current="page" href="http://localhost:8000">Create your watchlist</a>
+     
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+	<script>
+	$('#slider-area').owlCarousel({
+	   loop: true,
+	   autoplay: true,
+	   responsive: {
+	       0: {
+	           items: 1
+	       },
+	       600: {
+	           items: 1
+	       },
+	       1000: {
+	           items: 1
+	       }
+	   }
+	})        
+	</script>
+  <!----------------------------new slider-->
+  <!-- header section start -->
+  <header>
+
+    <div class="icons">
+      <i class="fas fa-bars" id="menu-bars"></i>
+      <i class="fas fa-search" id="heart"></i>
+
+    </div>
+  </header>
+
+
+
+
+  <!-- anime section start -->
+  <section class="anime" id="anime">
+    <h1 class="heading">Popular on Anime</h1>
+    <div class="swiper anime-slider">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="box"
+            style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEgmYEzn-N5kEIYQEOn7Yw7YZ6iG0s8QnVNLTBkdjW2CzL5R-GtygbuLUCkxwOFSQw9SLbcdQaQWsJ8OHp_mm5ca5-7Fk8TQGNZYHo6mIqW9D7yzSwwOSgWsiLwAu0vXtIzV8qoECVyrX8hLaKOYKjcici8pRL6ziG6gF-_CF-EIitytAwHHvzF4FeKb) no-repeat;">
+          </div>
+          <div class="content">
+            <h3>Naruto</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEi9IzcHQCfeh3U3nMB_P3JcOQtPTtiA2nst3gI9Sta5WkimR5lBmIrOuWWmhk57wpzjXT5Gcv0jmRYexvO2E5CXK5429S-p2yT1qmFu6rZWt-Vek7EydQOPhMiz98juFPDInPYDq7SQjivhteNSd9iWsNOVXjgJVyhYyMzPD7bzAC7W0gBnH1idFk9O) no-repeat;"></div>
+          <div class="content">
+            <h3>One-Punch Man</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEiv0O9_NyjhxbyGkqTpXPvw-s4_lpvUuPq4zIlHIhM7h5_x-UEwwxCacJc_pF92uV8VW0m-jCZHfB4iXhIFFClsod6jjTgqcapUXF32VcrDbxcbbPfx01nCbcZeBgOz9uq6JJfCvC2-VUzlp1qU41kYtqOmCXZz158f50PnWHMw-O6KirVSodb4GuaP) no-repeat;"></div>
+          <div class="content">
+            <h3>DEATH NOTE</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEjGmNJvJw5VJoWgk4vdPrehWrcfqu65V86PQXrin-tDntdM-RXVT1zW1wVTnyMFFFdQKhIcOqWZ5Fb-SyC74khekjzlruRkiAHm0znSGT6dVfde8eIWoEr8imVFrUj1DuTt-2J9u_xe9FkZt-FDIQqYjhXYPTpNatu1U1GdULOMEJY0g8PJ5C1VPUrE=s299) no-repeat;"></div>
+          <div class="content">
+            <h3>Black Clover</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEiwNJJ-PNHQlUa9nn9TH_2BQfwBO9Bw7Ad6cdWCBr7PBrxYSWQAKVGh_r3Mhpz4F18G-z2XNz4NLiuAiQiXBBOyeZwWXKdT3KGGV4_K-lRv80lTOvwVg64blRBhVUuzyN7VpjxuyrK_atj-9w4i_e1-6vLJCZRNGwLMMeeqfqN-dsNRS1A6fZePujT8) no-repeat;"></div>
+          <div class="content">
+            <h3>Jujutsu Kaisen</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEjN4m7edxXP1PsSV1UyY7rSAlAkwphpdgXCYyG92M6juX1muadsgMGIN-COZvRlZAKeF8XYZYbIcEMGpJ3kidHt9CzYCwm1XAigKKTfVkg2wQQDZM4HVB8bE5ENyKRlvVMdjULxuvB5YGq0HMMG2MaOgFbGurdLRHINQZR4DlRtPgDWksRU7h0CALiB) no-repeat;"></div>
+          <div class="content">
+            <h3>Haikyu!!</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEihQnTi9lMB8bzexKe45OMFlGV2PkebPI3JKqh_tf-HePJOtrtdN8scBDOCEe3aDCDEIAhZvywOqujE_yP2WF3oAZ2Opey7JCvi3J97TGfpmcrRBWg3OOYcqCM54CndNofqd2U00NWz4u5oRJIhBuE7T9BrLezyPmP2FU3YGfSOS2juVwozBtmoXGbH) no-repeat;"></div>
+          <div class="content">
+            <h3>Kuroko's Basketball</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEgvCq-4WNm1oBy-rDBn03qdJwf0u1TWsR3YwjFXYUo0rnLCOCfhYEQBE2U1ZHKOjj5NcPFfZesXYqgmh63ClJokWNUPaWL8qInsOB_yEIYBe6N955Ao6nMhHd6PKZqoZNikssduYTXyaxk-y_lrC7ps7HwBzweagHUYMDYtSq5PlJgy408_nKDwSQVm) no-repeat;"></div>
+          <div class="content">
+            <h3>My Hero Academia</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEh5lCcUH0npVPGoKTSxDj7Fjz2tRKffYMk9mKJIOaNa3BC8EPnnvggFLyh8vBxdF32LPYOq9Q2troPzqW9z1fTHB24D6eIpYK6-u7w3I9NydqdCWO5acNZkht_-t5aMM7s3O0Ph46iak57kVAzq7EY7N2Tiq8t4yPcFBXpQX-Urm_SzJhBFY7DQquBn) no-repeat;"></div>
+          <div class="content">
+            <h3>Dr. Stone</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEhQyAtvsZscCbW9I4c4VZaRX3AVJkY90aSTQk-uxHHPj8vXn4KFMHrRxQNc-4MZ7jaoSqznv-DIl1t7Rars85OGPnIko_4yr368vjcxXXRf_JbHVr09zynBjMEWghj6S15Y_xXfBRWs2yhVJD8D679WWTSkWvGVyRxl1OmS91xepiI_NOZ09prel0tc) no-repeat;"></div>
+          <div class="content">
+            <h3>Tokyo Revengers</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEhcqpZEcqH8vfsRmSKuXfhd7SDC44Ce4KIiksg7MMRVFR-s36nx6HSI9-stAWq2FKYzjnkZp9CR8aNmAUEIq04p2dcalMEz8zR2OSos3tEtjBD-HkpWkmg5Um7Gwi9jVV3o_VEHf-Yon3EkGK6o_Yzn-qNvhRqZwnygse3BCW3v3PiZG_N2ZHqhfqhE) no-repeat;"></div>
+          <div class="content">
+            <h3>Sword Art Online</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEi8ZmlYoh82G_VX3UXt-N1PSO_dFTssdBSa-8saonB94DJ5ctfwnkPb0OGaeIk-0C0FQutLZl2QzsZl2hH7LOGlth3KSNCWnsi7bWJ5WKKrKsnK_L3GesR7MPUZEEjykdTSPIxd1QIUX3asWzUvi7eHSEEuvc-eCwq-db3V6Pzt4PKko9mTrEy29ykL) no-repeat;"></div>
+          <div class="content">
+            <h3>KENGAN ASHURA</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="download.html" class="btn">Download</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- OLD GOLD section start -->
+
+  <section class="child" id="child">
+    <h1 class="heading">OLD GOLD ANIMES</h1>
+    <div class="swiper child-slider">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEj7bzlp8TH0em_bN0woWbIJUp4ny5dsAqPPD8CzIWUzyN4TTYWYXfkkXVYnoUtLrjNhw6FLwtmDlKMyERj-BeiysqjmPi7e-r_BwYe8JPDugZGybj8KWykAU-q-hHIcOQoYuBwK5WwM6RUCTS1T4Q4wfntldF3_wWObaG2cU3nMbdvtqsf1xLY6pGhG) no-repeat"></div>
+          <div class="content">
+            <h3>Beyblade</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEhIw0V7McahWkLiNSIZQ355NfC27Jy8a1Ww2QiU7SobGSRbJeqHV0aXTrwpbTdu77-0k-FHvmBAz2jS-BuK49MkIU01fLecySO9xd27vATCKinDMkqDfCkD3y7xJTn-3U_dAKVXZx4pUBP3JyE5lcduVr3YOypKOvLD3BRfBICuPzMZfeLRFEZ-uMTY) no-repeat"></div>
+          <div class="content">
+            <h3>Beyblade Burst Turbo</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEiWN0fDVBINfi5YHHA3hC0OrJlvgSbQe-vcxT8SQ5SMwzwXFtOic-vk2T1P6lFkIEZ6Q-hjWR5_8ncvN_gou9UwQeNlHgq0R7_YXGG1dpNlPDdI8KTGunxBcnBu5tbrHQVIXwWyo-mtyrKqwaPeemCF-A_-6akpQx5C7ol_br7KyHrFkcEkuQXjvBLR) no-repeat"></div>
+          <div class="content">
+            <h3>Bakugan: Battle Planet</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEiIdLJjXv2kjdg6JOmSOG1K1ypzMhFJHV1DJKS1KPYAcFbJClWtAmn5WdW1yaADDjTNtRDOJnnhmyXWeTfZeqz4RHwTtiwTNSwD5vWddt07bW5_Zo38VaD53S7xd7D28NjOpWtDg4EX12A63e8iyd-hK6x8Z21NyfENVHEEvhRv9HY0j1n2SuX8Auj8) no-repeat"></div>
+          <div class="content">
+            <h3>Sonic X</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEhuBvzHIWvkA9EaDfdJLQHqqzs8emeY8W-PnTF2iPh8fGJ-FDgPQvxtMEChK64u_M1pxmVyLXtqNgxlTOkLuXpG_9U-GK6hf8IS2mH3wpzuz2jjif1zb4QC8sK8VJeZXaxhJCYB9OhQR8EjFSkQk7llClGiiiIhTEvDyJOk4iB1w6AS_3fdJ-BuBQfL) no-repeat"></div>
+          <div class="content">
+            <h3>Yowamushi Pedal</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEhahsrhLUcxPaV_L_2Y-JgThXOAwPVZBGU4YfOwAMRvCCJtTKBXgaLLnjiWE-i_lpmi7qWZwIyiBuYM1LwHMWKwx6I-DCnsHQu4rGEAARRDGM3544YpWbavT7FAzMMQVroehkftq2O6YofsdQ6Fr-WdXUX-ZV6uogtRrIBleb27K1XOhUG3xrcuMT7a) no-repeat"></div>
+          <div class="content">
+            <h3>Shimajiro: A Adventure</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEivwP22ZN8vZRLcL1J2f5wjEjI2fBYJcD-1iNBXS2Ho8Bh35aNpTMxFrX7iBeS8MkSUfnGNocGGSPCH7KJM-AJR1cG67tjADq67NF3u9wi-mtg0E-auUvC88AuqFb_O9e7bLajp6sYKoqrz9cYRt9q0P8yqQVpD5NRm5CXt_Vr-EP1tx0Ji8wl4MaG8) no-repeat"></div>
+          <div class="content">
+            <h3>Go Astro Boy Go!</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- family section start -->
+
+  <section class="family" id="family">
+    <h1 class="heading">Family FRIENDLY Movies</h1>
+    <div class="swiper family-slider">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEjByfsA4cC2SlHseawTsaFWINlE9kV01AjaEds3llw6TYf_frSTIHBRpifJvFWogFiaUvotyzGpediqxdmx-hT0fBE_U1rLa6h8YojaAyxJ0gXyCP-1InOq3Bs-xBjTBCSTZs12OG9RdfML4F2e8Mknk1bK7Z3-R5FTPSRvizdqXk0TA4GczukcWnsS) no-repeat"></div>
+          <div class="content">
+            <h3>STAND BY ME Doraemon 2</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEh6ZsSn_BJF1k5v2ayBIDXxKV1SRGQ3_9jBcRtt6hJkAKHkn5aAPUDEbliZhXpE3JJzKEqe1h1SC4R2ZI_p32ZDNPS-MG3-ntu5AUiDlUcaCZMQFoejVyF_61aeJJigIO9-TcqQnkGyBOZdBnH_vr5s8ikDQDC5PjiKrFL6z3vh0dqus8x0pBHwr1-f) no-repeat"></div>
+          <div class="content">
+            <h3>Pokémon the Movie</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEidIrdF0WhMAHM2_lDZWKL3b9c0aPsIMiLcTyOlfysQUYVhgy6thLsEnBR1tGrnJBOBwWaoUVQ8nqdWqhVIlXOjRMy0EAhVAQ5vpwXMJZ1FIPOYIoEpbtmpqWdXFuwbOWD8qGjFklpRMJKMfMxNu0HE-wVGaXhvt9UDn3IJR83k3xXU1MsotyEmMENQ) no-repeat"></div>
+          <div class="content">
+            <h3>Hows Moving Castle</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEjQOoFR8XwHfZQ8OmLGX5ZhPSCETgEN7OE74HKM0Z5sG_UdjR9jqt7mhaW7f7qHV6yOdut7nECcj0YxrpVKrcqTi6QUoKUailSxBci0O_adXfDWsCTVT-TpXEbmebHuM8wE1I8LgN9C2f58S6gQ4u9gmTsg8BM2UyV0UjRkXe2DuGClQ6gMA5MKeh1M) no-repeat"></div>
+          <div class="content">
+            <h3>Spirited Away</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEhVRW61u1QG4UYbqrwklibkz0OStXtHoCSBaeWcLygYFSNS14tVDshSKOMrh4voeSPs5t8uPcF2tEi1vZTtVULqIlp9z2DN54ptkhxBheYNuhfwlKxFSnuaU6wss79Jf1GZ8NJITYKCq-VZ7AOG6rQjbwI3Xw8Gq00XnLBdlrpne5TaExy0FbEYtYKt) no-repeat"></div>
+          <div class="content">
+            <h3>My Neighbor Totoro</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEh_zAz__cvwlepecF9c72g8JuLTXod6Z0aP86d_WHe6dt2u0fDuNqp1SJaEof-hPNMNyl8chVvY0HtsFwMpsLK3aFerFM9uKALyq9HGVdKfa-QcVSioPuSB1-AUQXpTG0yGVdyOUOkXG6gL59jxmLmNR-sHBu9Kea2MaPgNf8ZBdQBzSbYIz7H-B0_K) no-repeat"></div>
+          <div class="content">
+            <h3>Kikis Delivery Service</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEjSbSrc1kUOHmiiFp7YqNxgdm1lP7TkC7HIcxEudhCJ08pasw9fIFz1TwgbcyhEFpk6iBtngSh6N5ogRzTba5wSPDQ4kjiHKybOlBoqpTTRS8o0WjfPVpMop6TRovbniEEe0Wn1gFItSJ13XmkG0_UtPqY72821KZvFB6qWiO2rif-LYkEfz0ngFynf) no-repeat"></div>
+          <div class="content">
+            <h3>Ponyo</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background: url(https://blogger.googleusercontent.com/img/a/AVvXsEi-3x8cGsnisZErJqsx1ntnTfPWrlJ0xzP3Afm9MyU7ro2CWwlbSYvqIp2AwrupuRCc7Zfbuzptla09RU3J7dS4aiB7yiMLI4EdPrZDYYSdjbFc8D5ATdlXwLKiai-FVOVSMxQgdLc5rnZWpitUP67dtK5g2CtPsQaggHM4fZZGFx9F_CloP0o1Ac8_) no-repeat"></div>
+          <div class="content">
+            <h3>Arrietty</h3>
+            <p>Guided by the spirit demon within him, orphaned Naruto learns
+              to harness his powers as a ninja in this anime adventure series.</p>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- link swiper file -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- custome js file link -->
+  <script src="main.js"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
